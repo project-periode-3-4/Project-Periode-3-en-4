@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-03-06T12:10:47.324+01:00
-  initializedAtString: 2019-03-06T12:10:47.315+01:00
+  lastUpdatedAtString: 2019-03-06T13:07:33.013+01:00
+  initializedAtString: 2019-03-06T13:07:32.999+01:00
   localBranches: []
-  remoteBranches: []
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/project-periode-3-4/Project-Periode-3-en-4.git
@@ -29,9 +31,18 @@ MonoBehaviour:
     keys: []
     values: []
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/project-periode-3-4/Project-Periode-3-en-4.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
