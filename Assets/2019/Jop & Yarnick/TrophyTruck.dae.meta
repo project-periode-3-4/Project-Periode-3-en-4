@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 4db766e125b4aa241abb96f57439eb4b
+timeCreated: 1513771943
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CRD_TTbody_cabside_L
+    100002: CRD_TTbody_cabside_R
+    100004: CRD_TTbody_fender_L
+    100006: CRD_TTbody_fender_R
+    100008: CRD_TTbody_frontclip
+    100010: CRD_TTbody_roof
+    100012: CRD_TTbody_supports
+    100014: CRD_TTbody_windshield_inside
+    100016: CRD_TTbody_windshield_outside
+    100018: CRD_TTfiberglass_cabside_L
+    100020: CRD_TTfiberglass_cabside_R
+    100022: CRD_TTfiberglass_fender_L
+    100024: CRD_TTfiberglass_fender_R
+    100026: CRD_TTfiberglass_frontclip
+    100028: CRD_TTfiberglass_roof
+    100030: //RootNode
+    400000: CRD_TTbody_cabside_L
+    400002: CRD_TTbody_cabside_R
+    400004: CRD_TTbody_fender_L
+    400006: CRD_TTbody_fender_R
+    400008: CRD_TTbody_frontclip
+    400010: CRD_TTbody_roof
+    400012: CRD_TTbody_supports
+    400014: CRD_TTbody_windshield_inside
+    400016: CRD_TTbody_windshield_outside
+    400018: CRD_TTfiberglass_cabside_L
+    400020: CRD_TTfiberglass_cabside_R
+    400022: CRD_TTfiberglass_fender_L
+    400024: CRD_TTfiberglass_fender_R
+    400026: CRD_TTfiberglass_frontclip
+    400028: CRD_TTfiberglass_roof
+    400030: //RootNode
+    2100000: CRD_chassis
+    2100002: CRD_TTbody
+    2100004: CRD_TTfiberglass
+    2100006: CRD_TTbody_windshield_outside
+    2100008: CRD_TTbody_windshield_inside
+    2300000: CRD_TTbody_cabside_L
+    2300002: CRD_TTbody_cabside_R
+    2300004: CRD_TTbody_fender_L
+    2300006: CRD_TTbody_fender_R
+    2300008: CRD_TTbody_frontclip
+    2300010: CRD_TTbody_roof
+    2300012: CRD_TTbody_supports
+    2300014: CRD_TTbody_windshield_inside
+    2300016: CRD_TTbody_windshield_outside
+    2300018: CRD_TTfiberglass_cabside_L
+    2300020: CRD_TTfiberglass_cabside_R
+    2300022: CRD_TTfiberglass_fender_L
+    2300024: CRD_TTfiberglass_fender_R
+    2300026: CRD_TTfiberglass_frontclip
+    2300028: CRD_TTfiberglass_roof
+    3300000: CRD_TTbody_cabside_L
+    3300002: CRD_TTbody_cabside_R
+    3300004: CRD_TTbody_fender_L
+    3300006: CRD_TTbody_fender_R
+    3300008: CRD_TTbody_frontclip
+    3300010: CRD_TTbody_roof
+    3300012: CRD_TTbody_supports
+    3300014: CRD_TTbody_windshield_inside
+    3300016: CRD_TTbody_windshield_outside
+    3300018: CRD_TTfiberglass_cabside_L
+    3300020: CRD_TTfiberglass_cabside_R
+    3300022: CRD_TTfiberglass_fender_L
+    3300024: CRD_TTfiberglass_fender_R
+    3300026: CRD_TTfiberglass_frontclip
+    3300028: CRD_TTfiberglass_roof
+    4300000: CRD_TTbody_supports
+    4300002: CRD_TTbody_cabside_R
+    4300004: CRD_TTbody_frontclip
+    4300006: CRD_TTfiberglass_frontclip
+    4300008: CRD_TTbody_windshield_outside
+    4300010: CRD_TTbody_fender_L
+    4300012: CRD_TTbody_fender_R
+    4300014: CRD_TTbody_roof
+    4300016: CRD_TTfiberglass_fender_L
+    4300018: CRD_TTfiberglass_fender_R
+    4300020: CRD_TTbody_cabside_L
+    4300022: CRD_TTfiberglass_cabside_L
+    4300024: CRD_TTfiberglass_cabside_R
+    4300026: CRD_TTfiberglass_roof
+    4300028: CRD_TTbody_windshield_inside
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

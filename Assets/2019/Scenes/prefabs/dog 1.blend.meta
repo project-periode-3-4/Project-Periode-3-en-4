@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: e2ce6d1aa14a3d444b4a7ce482f4f071
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CameraPreset
+    100002: //RootNode
+    100004: Dog_0
+    100006: Dog_0_001
+    100008: Dog_0_002
+    100010: Dog_0_003
+    100012: Dog_0_004
+    100014: Dog_0_005
+    100016: Dog_0_006
+    100018: Dog_0_007
+    100020: LightPreset
+    100022: Paws_1
+    400000: CameraPreset
+    400002: //RootNode
+    400004: Dog_0
+    400006: Dog_0_001
+    400008: Dog_0_002
+    400010: Dog_0_003
+    400012: Dog_0_004
+    400014: Dog_0_005
+    400016: Dog_0_006
+    400018: Dog_0_007
+    400020: LightPreset
+    400022: Paws_1
+    2300000: Dog_0
+    2300002: Dog_0_001
+    2300004: Dog_0_002
+    2300006: Dog_0_003
+    2300008: Dog_0_004
+    2300010: Dog_0_005
+    2300012: Dog_0_006
+    2300014: Dog_0_007
+    2300016: Paws_1
+    3300000: Dog_0
+    3300002: Dog_0_001
+    3300004: Dog_0_002
+    3300006: Dog_0_003
+    3300008: Dog_0_004
+    3300010: Dog_0_005
+    3300012: Dog_0_006
+    3300014: Dog_0_007
+    3300016: Paws_1
+    4300000: Dog_0_007
+    4300002: Paws_1
+    4300004: Dog_0_006
+    4300006: Dog_0_005
+    4300008: Dog_0_004
+    4300010: Dog_0_003
+    4300012: Dog_0_002
+    4300014: Dog_0_001
+    4300016: Dog_0
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_bk_lf
+    second: {fileID: 2100000, guid: c5412c80edacb714082f431b4de0c1c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_bk_rg
+    second: {fileID: 2100000, guid: 1c78d7b5f9dee584ba881de7f85b9b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_eyes
+    second: {fileID: 2100000, guid: f595a6061555e0047add6e00d6c0e6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_fr_lf
+    second: {fileID: 2100000, guid: 387186f9d32110640acffefa477e191a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_fr_rg
+    second: {fileID: 2100000, guid: b994342b4f129d046b4cb399e89edd27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_left
+    second: {fileID: 2100000, guid: 9265bf2e3b5ce3f478405951f771afc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_nose
+    second: {fileID: 2100000, guid: 29065de158cbb43478d68b2ae7c1c9cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_paws
+    second: {fileID: 2100000, guid: 7c13247c47aaf7f4f8e6289a3a620b78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dg_right
+    second: {fileID: 2100000, guid: 820bdeb46d73705438b7be5932539200, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
