@@ -157,5 +157,20 @@ namespace PasswordSecurity
             return plainText;
         }
     } 
+
+    class SHA256Encryption
+    {
+        private protected const string Key = "m03gszfNiC1nh7QtL9PgQldoONOtrOmS";
+
+        public static string Encrypt(string String)
+        {
+            SHA256 mySHA256 = SHA256Managed.Create();
+            byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+            byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes(Key));
+
+            return AESEncryption.EncryptString(String, key, iv);
+
+        }
+    }
 }
 

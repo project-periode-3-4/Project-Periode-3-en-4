@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using PasswordSecurity;
+using PHPConnection;
 using DBConnection;
-using System.Text;
-using System.Security.Cryptography;
-using System.IO;
 
 public class TestScript : MonoBehaviour
 {
-    string CreateUserURL = "";
+   
+    
+    string Key = "m03gszfNiC1nh7QtL9PgQldoONOtrOmS";
 
     [SerializeField]
     public Text Test;
@@ -26,40 +26,35 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       // Debug.Log(DateTimeOffset.UtcNow.ToUnixTimeSeconds());
     }
 
     public static void Debugging(string ex)
     {
-        
-        Debug.Log(ex);
-        
+        Debug.Log(ex);      
     }
-
 
     public void Onclick()
     {
         //DBReciever.ReceiveDataLogin("FirstInsert","itu_accounts");
-
-
         string passwordHass = PasswordHasherAndSalt.PasswordHasher(Test.text);
         Succes = PasswordHasherAndSalt.PasswordCompare(passwordHass, Test.text);
-
-
-
-        DBInteraction.SendDataLogin("Reeee", passwordHass, "itu_accounts");
-
+        //DBInteraction.SendDataLogin("Reeee", passwordHass, "itu_accounts");
         //Test.text = passwordHass;
-        SHA256 mySHA256 = SHA256Managed.Create();
-        byte[] iv = new byte[16] { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
-        byte[] key = mySHA256.ComputeHash(Encoding.ASCII.GetBytes("geheim"));
-        Debug.Log(AESEncryption.EncryptString("test", key, iv));
+        InsertData("Geheim");
     }
 
     public void InsertData(string Password)
     {
-        WWWForm form = new WWWForm();     
-        form.AddField("PasswordPost", Password);
-        WWW www = new WWW(CreateUserURL, form);
+
+        string CreateURL = "http://jemx.nl/itapi/";
+        
+        //string testingSHit = SHA256Encryption.Encrypt(DateTimeOffset.UtcNow.ToUnixTimeSeconds() + Alteration + "/insert_account/" + "316378" + "/"+ Password);
+        
+       // CreateURL += testingSHit;
+        Debug.Log(CreateURL);
+       // WWWForm form = new WWWForm();
+       //// form.AddField("PasswordPost", Password);
+       //
     }
 }

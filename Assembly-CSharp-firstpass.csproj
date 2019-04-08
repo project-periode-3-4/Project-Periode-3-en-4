@@ -405,6 +405,12 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Programs Files/Unity Engine/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>D:/Unity Games/Project-Periode-3-en-4/Assets/InlogCanvas/MySQL DLL/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>D:/Unity Games/Project-Periode-3-en-4/Assets/InlogCanvas/MySQL DLL/MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>D:/Unity Games/Project-Periode-3-en-4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -413,12 +419,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/Unity Games/Project-Periode-3-en-4/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>D:/Unity Games/Project-Periode-3-en-4/Assets/InlogCanvas/MySQL DLL/Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>D:/Unity Games/Project-Periode-3-en-4/Assets/InlogCanvas/MySQL DLL/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Programs Files/Unity Engine/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
