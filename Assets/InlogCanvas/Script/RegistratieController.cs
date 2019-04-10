@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using PasswordSecurity;
-using DBConnection;
+using PHPConnection;
 
 public class RegistratieController : MonoBehaviour
 {  
@@ -36,7 +36,10 @@ public class RegistratieController : MonoBehaviour
         if (Wachtwoord == CheckWW)
         {
             string Hashed = PasswordHasherAndSalt.PasswordHasher(Wachtwoord);
-            DBInteraction.SendDataLogin(InlogName, Hashed, "LOGIN");
+
+            string[] Data = { InlogName, Wachtwoord };
+
+            PHPInteraction.SendAction("insert_account", Data);
             // terug sturen naar inlog menu
         }
         else

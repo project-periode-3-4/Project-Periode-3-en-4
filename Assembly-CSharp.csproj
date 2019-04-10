@@ -65,6 +65,7 @@
     <Compile Include="Assets\InlogCanvas\Script\PasswordHasherAndSalt.cs" />
     <Compile Include="Assets\InlogCanvas\Script\PHPInteraction.cs" />
     <Compile Include="Assets\InlogCanvas\Script\RegistratieController.cs" />
+    <Compile Include="Assets\InlogCanvas\Script\SimpleJSON.cs" />
     <Compile Include="Assets\InlogCanvas\Script\TestScript.cs" />
     <Compile Include="Assets\InlogCanvas\Script\UIController.cs" />
     <Compile Include="Assets\Scripts\Gijs\Player.cs" />

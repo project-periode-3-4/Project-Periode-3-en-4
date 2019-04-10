@@ -17,11 +17,6 @@ public class TestScript : MonoBehaviour
     public Text Test;
     [SerializeField]
     private bool Succes = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -41,7 +36,10 @@ public class TestScript : MonoBehaviour
         Succes = PasswordHasherAndSalt.PasswordCompare(passwordHass, Test.text);
         //DBInteraction.SendDataLogin("Reeee", passwordHass, "itu_accounts");
         //Test.text = passwordHass;
-        InsertData("Geheim");
+        string[] Sending = { "316378", "Geheim" };
+
+        //StartCoroutine(PHPInteraction.RetrieveAction("check_account", Sending));
+       Debugging( PHPInteraction.RetrieveAction("check_account", Sending));
     }
 
     public void InsertData(string Password)

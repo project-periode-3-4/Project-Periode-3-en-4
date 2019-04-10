@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using PasswordSecurity;
-using DBConnection;
+using PHPConnection;
+
 
 public class LoginController : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class LoginController : MonoBehaviour
     public InputField WWField;
 
     public bool Succes;
+    public GameObject[] fieldObject;
+    public InputField[] field;
 
     public Text Meldingen;
     // Start is called before the first frame update
@@ -21,18 +24,30 @@ public class LoginController : MonoBehaviour
     {
         InlogField.onValueChanged.AddListener(delegate { InsertInlog(); });
         WWField.onValueChanged.AddListener(delegate { InsertWW(); });
+        //fieldObject = GameObject.FindGameObjectsWithTag("LoginFields");
+
+        for (int i = 0; i < fieldObject.Length; i++)
+        {
+            field[i] = fieldObject[i].GetComponent<InputField>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Tab)){
+            for (int i = 0; i < field.Length ; i++)
+            {
+                field[i].ActivateInputField();
+            } 
+        }        
     }
 
     public void LoginCheck()
     {
-       string DBPass = DBInteraction.ReceiveDataLogin(LoginName, "LOGIN");
-        if (PasswordHasherAndSalt.PasswordCompare(DBPass, Wachtwoord))
+        string[] Data = { LoginName, Wachtwoord };
+
+        if (!string.IsNullOrEmpty(PHPInteraction.RetrieveAction("check_account", Data)))
         {
             Succes = true;
         }
