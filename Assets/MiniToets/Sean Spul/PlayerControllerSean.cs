@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerSean : MonoBehaviour
 {
     [SerializeField]
     private float speed = 5f;
     [SerializeField]
     private float lookSensitivity = 3f;
-    private PlayerMotor motor;
+    private PlayerMotorSean motor;
 
     //public GameObject[] myTexts;
 
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         score = 0;
-        motor = GetComponent<PlayerMotor>();
+        motor = GetComponent<PlayerMotorSean>();
         Vraag2Text.SetActive(false);
         Vraag1.SetActive(true);
         vraag3.SetActive(false);

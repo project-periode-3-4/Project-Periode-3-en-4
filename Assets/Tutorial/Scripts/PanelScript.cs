@@ -16,7 +16,7 @@ public class PanelScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && textActive == true)
+        if (Input.GetKeyDown(KeyCode.Return) && textActive == true)
         {
             paneltext.SetActive(false);
             textActive = false;
