@@ -129,6 +129,7 @@
     <Compile Include="Assets\Scripts\Meindert\Respawn.cs" />
     <Compile Include="Assets\Scripts\Micheal\Navigation.cs" />
     <Compile Include="Assets\Scripts\Micheal\ToggleButtonNavigation\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\Niels N\ProgressSystem.cs" />
     <Compile Include="Assets\Scripts\Niels\DeurScript.cs" />
     <Compile Include="Assets\Scripts\Niels\MuziekSpeler.cs" />
     <Compile Include="Assets\Scripts\Niels\MuziekToggle.cs" />
