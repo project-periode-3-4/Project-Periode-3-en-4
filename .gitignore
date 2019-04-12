@@ -56,3 +56,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assembly-CSharp-Editor-firstpass.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-CSharp.csproj
