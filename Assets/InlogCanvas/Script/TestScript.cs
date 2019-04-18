@@ -39,7 +39,7 @@ public class TestScript : MonoBehaviour
         string[] Sending = { "316378", "Geheim" };
 
         //StartCoroutine(PHPInteraction.RetrieveAction("check_account", Sending));
-       Debugging( PHPInteraction.RetrieveAction("check_account", Sending));
+       Debugging( PHPInteraction.SendAndRetrieveAction("check_account", Sending));
     }
 
     public void InsertData(string Password)
@@ -54,5 +54,10 @@ public class TestScript : MonoBehaviour
        // WWWForm form = new WWWForm();
        //// form.AddField("PasswordPost", Password);
        //
+    }
+
+    void deleteAcc(string Pass)
+    {
+        //Debugging(PHPInteraction.RetrieveAction());
     }
 }

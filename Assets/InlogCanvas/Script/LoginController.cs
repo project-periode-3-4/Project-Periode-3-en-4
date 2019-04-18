@@ -47,7 +47,7 @@ public class LoginController : MonoBehaviour
     {
         string[] Data = { LoginName, Wachtwoord };
 
-        if (!string.IsNullOrEmpty(PHPInteraction.RetrieveAction("check_account", Data)))
+        if (!string.IsNullOrEmpty(PHPInteraction.SendAndRetrieveAction("check_account", Data)))
         {
             Succes = true;
         }

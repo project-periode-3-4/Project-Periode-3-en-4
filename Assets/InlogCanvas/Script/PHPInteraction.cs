@@ -10,22 +10,7 @@ namespace PHPConnection
     public class PHPInteraction
     {
        private protected const string Alteration = "86632198";
-
-        public static void SendAction(string Action,string[] Data)
-        {
-
-            string URL = "http://jemx.nl/itapi/";
-            var UnixTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-            string DataString = string.Join("/", Data);
-
-            string SendingString = URL + SHA256Encryption.Encrypt(UnixTime + Alteration + "/" + Action + "/" +  DataString + "/");
-
-            WWWForm form = new WWWForm();
-            WWW www = new WWW(SendingString, form);
-            
-        }
-
-        public static string RetrieveAction(string Action, string[] Data)
+        public static string SendAndRetrieveAction(string Action, string[] Data)
         {
             var UnixTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
             string DataString = string.Join("/", Data);
@@ -34,11 +19,8 @@ namespace PHPConnection
             {
                 
             }
-
-
             return DataWWW.text;
         }
-
         //public static IEnumerator RetrieveAction(string Action, string[] Data)
         //{
         //    var UnixTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
@@ -56,7 +38,7 @@ namespace PHPConnection
         //            TestScript.Debugging("\nReceived: " + webRequest.downloadHandler.text);
         //        }
         //    }
-            
+
         //}
     }
 }

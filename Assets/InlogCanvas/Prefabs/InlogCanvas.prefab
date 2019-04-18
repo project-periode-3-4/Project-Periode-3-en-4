@@ -2084,7 +2084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8062093156350399503
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2124,6 +2124,12 @@ MonoBehaviour:
   InlogField: {fileID: 8062093155524222388}
   WWField: {fileID: 8062093155652480448}
   Succes: 0
+  fieldObject:
+  - {fileID: 8062093155524222390}
+  - {fileID: 8062093155652480450}
+  field:
+  - {fileID: 0}
+  - {fileID: 0}
   Meldingen: {fileID: 0}
 --- !u!1 &8062093156384225665
 GameObject:
@@ -2418,7 +2424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8062093156581181235
 RectTransform:
   m_ObjectHideFlags: 0
